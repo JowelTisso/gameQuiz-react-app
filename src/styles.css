@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@1,400;1,700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Volkhov", serif;
+  background-color: var(--primary-bg);
+}
+
+:root {
+  --primary-bg: #050302;
+  --secondary-bg: #e3bf83;
+  --primary-text-color: #e3bf83;
+  --secondary-text-color: #342413;
+}
+
+/* container */
+.App {
+  text-align: center;
+  background-color: var(--primary-bg);
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-question {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  align-content: space-around;
+  width: 80%;
+}
+
+.container-ans {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  align-content: space-around;
+  width: 50%;
+}
+
+img {
+  width: 50%;
+}
+
+/* text */
+h1 {
+  color: var(--primary-text-color);
+}
+
+.greeting-header {
+  font-size: 3rem;
+}
+
+.question-text {
+  color: var(--primary-text-color);
+  margin: 1rem;
+}
+
+.option-text {
+  color: var(--primary-text-color);
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.selected-ans {
+  color: var(--primary-text-color);
+}
+
+/* Input */
+input {
+  font-family: "Volkhov", serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: "bold";
+  padding: 0.5rem 1rem;
+  color: var(--secondary-text-color);
+  margin-top: 1rem;
+}
+
+/* button */
+
+button {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 3rem auto;
+  background-color: var(--secondary-bg);
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--secondary-text-color);
+}
+
+.container-nav button {
+  margin: 1rem;
+}
+
+.btn-ans {
+  width: 70px;
+}
