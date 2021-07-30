@@ -64,7 +64,7 @@ export default function Quiz() {
 
   return (
     <div className="App">
-      <img src={logo} alt="main" style={{ width: "30%" }} />
+      <img src={logo} alt="main" />
       <div className="container-nav">
         <button>Score:{score}</button>
       </div>

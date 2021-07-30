@@ -46,6 +46,7 @@ body {
   align-items: space-between;
   align-content: space-around;
   width: 50%;
+  /* background-color: powderblue; */
 }
 
 img {
@@ -107,4 +108,13 @@ button {
 
 .btn-ans {
   width: 70px;
+}
+
+@media screen and (max-width: 550px) {
+  .container-ans {
+    width: 70%;
+  }
+  img {
+    width: 70%;
+  }
 }
